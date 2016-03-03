@@ -10,6 +10,30 @@ h1,h2,h3,h4,h5{
 	margin: 0;
 }
 
+.w-100{
+	width: 100%;
+}
+
+.w-75{
+	width: 75%;
+}
+
+.w-50{
+	width: 50%;
+}
+
+.w-25{
+	width: 25%;
+}
+
+.f-right{
+	float: right;
+}
+
+.f-left{
+	float: left;
+}
+
 header .row{
 	margin: 3% 0;
 }
@@ -33,19 +57,21 @@ header input{
 	height: 30px;
 	border-radius: 4px;
 }
-
+.nav>li>a {
+    padding: 10px 38px;
+}
 	
 footer h5{
 	font-weight: 600;
 }
 
-footer a,header a{
+a{
 	text-decoration: none;
 	color: black;
-	font-size: 1.3rem;
+	font-size: 1.4rem;
 }
 
-footer ul{
+ul{
 	list-style-type: none;
 	padding: 0;
 }
