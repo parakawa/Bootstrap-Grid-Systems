@@ -1,1 +1,56 @@
-/* Inserta tu código aqui */
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+h1,h2,h3,h4,h5{
+	padding: 0;
+	margin: 0;
+}
+
+header .row{
+	margin: 3% 0;
+}
+
+header a, header i{
+	margin-top: 14px;
+}
+
+header i:nth-child(3){
+	padding-left: 21px;
+}
+
+header input{
+	font-size: 1.4rem;
+	padding: 3px 5px;
+}
+
+
+header input{
+	padding-top: 4px;
+	height: 30px;
+	border-radius: 4px;
+}
+
+	
+footer h5{
+	font-weight: 600;
+}
+
+footer a,header a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.3rem;
+}
+
+footer ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+footer .row{
+	border-top: 5px solid #444444;
+}
+
